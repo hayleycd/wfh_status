@@ -1,4 +1,4 @@
-# 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
+## 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
 ### 🦠 Working during the pandemic is a bit weird. 🦠
 
 #### See my [WFH Status](https://hayleyworksfromhome.azurewebsites.net/api/wfh) website
@@ -23,6 +23,6 @@ Optional:
 - Install the [LaunchDarkly Slack App](https://docs.launchdarkly.com/integrations/slack) into a Slack community that you log into during your work day
 
 ### Feature Flags
-![Showing dashboard with feature flags](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flags.png)
 
+![Showing dashboard with feature flags](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flags.png)
 ![Showing the form to create a new flag](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/create_a_flag.png)
