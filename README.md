@@ -16,7 +16,13 @@ You can think of this project as a digital do not disturb sign on my office wall
 ### Get your Own
 You will need:
 - A Microsoft Azure [account](https://azure.microsoft.com/en-us/free/)
+- Azure VS Code extension
 - A LaunchDarkly account ([30-day](https://launchdarkly.com/start-trial/) trial available)
 
 Optional:
 - Install the [LaunchDarkly Slack App](https://docs.launchdarkly.com/integrations/slack) into a Slack community that you log into during your work day
+
+### Feature Flags
+![Showing dashboard with feature flags](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flags.png)
+
+![Showing the form to create a new flag](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/create_a_flag.png)
