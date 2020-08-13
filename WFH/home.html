@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hayley's Quarantine Status</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style>
+        .heading {text-align: center;}
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+        <h1>🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀</h1>
+        <h3>🦠 Working during the pandemic is a bit weird. 🦠</h3>
+        <a class="btn btn-primary btn-lg" href="https://www.github.com/hayleycd" role="button">GitHub 💻</a>
+        <a class="btn btn-primary btn-lg" href="https://www.youtube.com" role="button">YouTube 📹</a>
+        <a class="btn btn-primary btn-lg" href="https://www.launchdarkly.com" role="button">Launch Darkly 🚀</a>
+    </div>
+    <hr>
+    <div class=row>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <h2 class="heading">Hayley's Work Status 🤷‍♀️</h2>
+            <ul>
+                {% if flags["do-not-disturb"] %}
+                    <li><b>Overall, I am busy and would prefer not to be disurbed</b></li>
+                {% else %}
+                    <li>Overall, I don't mind being interrupted if it is important or fun.</li>
+                {% endif %}
+                {% if flags["interview"] %}
+                    <li><b>I am in an interview or important meeting. If the house is on fire 🔥, I want to know. Otherwise, please don't interrupt.</b></li>
+                {% else %}
+                    <li>I am not in a high stakes meeting or interview. I probably do want to know if the dog did something cute. 🐕</li>
+                {% endif %}
+                {% if flags["recording"] %}
+                    <li><b>I am recording a talk or demo. Please keep the noise down and don't interrupt. Otherwise, I may try to make you do the editing</b></li>
+                {% else %}
+                    <li>I am not currently recording! Time for your harmonica practice.🎵</li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h2 class="heading">Personal Wellbeing ✨</h2>
+            <ul>
+                {% if flags["hearing-aids"] %}
+                    <li>I am wearing my hearing aids today and will probably hear normally. 🦻</li>
+                {% else %}
+                    <li><b>I am not wearing my hearing aids today because I am stubborn. Please get my attention before starting a conversation. 🙏</b></li>
+                {% endif %}
+                {% if flags["run-complete"] %}
+                    <li>I ran today, which is a great shortcut to dopamine. 🏃‍♀️</li>
+                {% else %}
+                    <li><b>I have not run yet. Please encourage me to go.</b></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <h2 class="heading">The DogNess Monster 🐾</h2>
+            <ul>
+                {% if flags["dog-walked"] %}
+                    <li>Nessa has been walked today! Though I am sure she wouldn't mind another walk around the block. 👟</li>
+                {% else %}
+                    <li><b>Nessa has not been walked yet. I will do it ASAP, but this is your chance to be her favorite person. 💖</b></li>
+                {% endif %}
+                {% if flags["dog-fed"] %}
+                    <li>No matter what she says, Nessa has been fed her meal. Don't let her trick you with those eyes. 🥺</li>
+                {% else %}
+                    <li><b>I am a monster. Nessa has not been fed yet, please do so if you see this. 🦴</b></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="col-md-4"style="text-align: center;">
+            <img src="https://pbs.twimg.com/media/EbqPuoUUEAAWowT?format=jpg&name=large" alt="Cute labrador in car" style="width:200px;">
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h3>About this Project</h3>
+                <p>Is it just me, or is remote work during a pandemic difficult?</p>
+                <p>Home is where the heart is, but also where the distractions are. Navigating workday boundaries and expectations to your fam can be tough but neccessary. This project is a fun, mostly tongue-in-cheek, way to communicate my workday boundaries to my housemates. I can update feature flags either through LaunchDarkly's dashboard or by interacting with my LaunchDarkly Slack App.</p>
+                <p>This website was built with Python, Azure Functions, and LaunchDarkly. See the code <a href="https://www.github.com/hayleycd">here</a>, watch the demo <a href="https://www.youtube.com">here</a>, or learn how you can deploy your own version <a href="https://www.github.com/hayleycd">here.</a></p>
+            <h3>About LaunchDarkly</h3>
+                <p>LaunchDarkly helps developers decouple deployments from debuting features. Can you say that three times fast?</p>
+                <p>With LaunchDarkly's feature management system, you can test new features in production and debut them to users with the flick of a switch.</p>
+                <p>Start your <a href="https://launchdarkly.com/start-trial/">30 day trial</a> or learn more about <a href="https://launchdarkly.com/use-cases/">feature management</a>.</p>
+            <h3>About Hayley</h3>
+                <p>I love developer communities.</p>
+                <p><a href="https://www.twitter.com/hayleydenb">Twitter 🐦</a></p>
+                <p><a href="https://www.linkedin.com/in/hayleydenbraverpe">LinkedIn 👩‍💻</a></p>
+                <p><a href="https://codeandtea.com">Code&Tea 🍵</a></p>
+            <hr>
+            <div class="heading">
+                <h3>🦠 Working during the pandemic is <b>still</b> a bit weird. 🦠</h3>
+                <br>
+                <a class="btn btn-primary btn-lg" href="https://www.github.com/hayleycd" role="button">GitHub 💻</a>
+                <a class="btn btn-primary btn-lg" href="https://www.youtube.com" role="button">YouTube 📹</a>
+                <a class="btn btn-primary btn-lg" href="https://www.launchdarkly.com" role="button">Launch Darkly 🚀</a>
+                <br><br>
+                <p>Hayley Denbraver, 2020</p>
+                <br>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+azure-functions
+launchdarkly-server-sdk==6.13.1
+Jinja2
