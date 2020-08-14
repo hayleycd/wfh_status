@@ -13,6 +13,21 @@ My husband is working from home, and my retired mother lives with us. I have fou
 
 You can think of this project as a digital "do not disturb" sign on my office door. I am utilizing LaunchDarkly feature flags to easily update my statuses. My family has the URL for my website, and can check to see what they can expect from my workday. I also threw in helpful info about our dog's status and a couple of things that are important to me from a more personal perspective. 
 
+#### Flags off
+Here is a peek at what the website looks like when all of the feature flags are off. 
+![This is what the text on the website looks like when all of the flags are off](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flagsoffscreenshot.png)
+![Dashboard showing feature flags are off](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flags%20off.png)
+##### Flags are turned off.
+
+#### Flags on
+And here you can see the changes to the page when the feature flags are on. 
+![Statuses have changed compared to picture above.](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flagsonscreenshot.png)
+Notice how the text has changed. 
+![I have turned flags on](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flagson.png)
+##### Flags are turned on. 
+
+__You don't need to have all the flags on or all the flags off. Flags are toggled individually based on what I am trying to convey. This was just an easy way for you to see the difference in the content shown on the website.__
+
 ### Get your Own
 You will need:
 - A Microsoft Azure [account](https://azure.microsoft.com/en-us/free/)
