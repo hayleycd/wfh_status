@@ -2,7 +2,7 @@
 ### 🦠 Working during the pandemic is a bit weird. 🦠
 
 #### See my [WFH Status](https://hayleyworksfromhome.azurewebsites.net/api/wfh) website
-#### See the [demo](https://www.youtube.com)
+#### See the [demo](https://youtu.be/J1nD3lzldnY)
 
 ### The Problem
 Working from home has been difficult, but important during the epidemic. I have been looking for Developer Advocate/Develepor Relations jobs during quarantine. This has meant that I have taken many high stakes video calls. I also have done some video recording and editing as conferences have moved online and are more likely than ever to request a pre-recorded talk.
