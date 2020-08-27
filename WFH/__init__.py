@@ -4,21 +4,13 @@ import os
 import azure.functions as func
 import ldclient
 import jinja2
+import __app__.launch_dark as ld_common
 
 #Authorize Launch Darkly
 ldclient.set_sdk_key(os.environ['LDKey'])
 
 #Flags
-flag_keys = [
-    "do-not-disturb",
-    "dog-walked",
-    "dog-fed",
-    "interview",
-    "recording",
-    "dog-walked",
-    "hearing-aids",
-    "run-complete",
-]
+flag_keys = ld_common.flag_keys
 
 #Set up Templating Engine
 loader = jinja2.FileSystemLoader('./WFH')
