@@ -24,4 +24,4 @@ Updating an individual flag was a little trickier. It required using a json patc
 
 ### Conclusion
 
-Hopefully these updates make my project more useful to myself and my family. It is easier for them to check my status, and I am able to update my status via a simple text message, without logging in to Slack or LaunchDarkly!
+Hopefully these updates make my project more useful to myself and my family. It is easier for them to check my status, and I am able to update my status via a simple text message, without logging in to Slack or LaunchDarkly. 
