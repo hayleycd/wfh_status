@@ -13,7 +13,7 @@ def send_reminder_text():
     message = CLIENT.messages.create(
         to=MY_PHONE_NUMBER, 
         from_=TWIL_NUMBER,
-        body="Time to update your flags for the workday!")
+        body="Time to update your flags for the workday! Respond with 'wfhinfo' for instructions.")
 
 
 def send_message(outgoing_message, send_to, send_from):

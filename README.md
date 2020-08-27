@@ -1,7 +1,8 @@
-Currently undergoing work. 
-
 ## 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
 ### 🦠 Working during the pandemic is a bit weird. 🦠
+
+#### Exciting updates 8/27/20!!
+See [Part 2](https://www.google.com) now!
 
 #### See my [WFH Status](https://hayleyworksfromhome.azurewebsites.net/api/wfh) website
 #### See the [demo](https://youtu.be/J1nD3lzldnY)
