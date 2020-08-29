@@ -41,4 +41,3 @@ Hopefully these updates make my project more useful to myself and my family. It 
 If I ever forget how this works, or someone needs more instructions, texting 'wfhinfo' gives you all the info you need!
 
 ![Information on how to navigate the functionality.](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/wfhinfo.jpg)
-
