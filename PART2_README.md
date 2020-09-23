@@ -28,7 +28,7 @@ Updating an individual flag was a little trickier. It required using a json patc
 
 I can request a list of flag keys in case I don't remember them. 
 
-![List of flag keys](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/flags.jpg)
+![List of flag keys](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/keys.jpg)
 
 I can easily toggle my keys via text. 
 
