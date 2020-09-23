@@ -3,7 +3,7 @@
 
 ## Exciting updates 8/27/20!! See [Part 2](https://github.com/hayleycd/wfh_status/blob/master/PART2_README.md) now!
 
-#### See my [WFH Status](https://hayleyworksfromhome.azurewebsites.net/api/wfh) website
+#### ~~See my [WFH Status]website~~ Not currently deployed because LaunchDarkly trial ended
 #### See the [demo](https://youtu.be/J1nD3lzldnY)
 
 ### The Problem
