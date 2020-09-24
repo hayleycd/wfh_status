@@ -1,9 +1,12 @@
 ## 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
 ### 🦠 Working during the pandemic is a bit weird. 🦠
 
+## Update Sep 2020
+
+This project is no longer deployed, as my LaunchDarkly trial expired and it is pricier than I would like. However, I am leaving up the source code because I am proud of it, and it is an example project and might be interesting to those wanting to learn more about LaunchDarkly, Azure Functions, or Twilio. See [part 2](https://github.com/hayleycd/wfh_status/blob/master/PART2_README.md) for Twilio implementation. 
+
 ## Exciting updates 8/27/20!! See [Part 2](https://github.com/hayleycd/wfh_status/blob/master/PART2_README.md) now!
 
-#### ~~See my [WFH Status]website~~ Not currently deployed because LaunchDarkly trial ended
 #### See the [demo](https://youtu.be/J1nD3lzldnY)
 
 ### The Problem
