@@ -7,7 +7,7 @@ I am leaving up the source code because I am proud of it, and it is an example p
 
 #### [August 2020 Update](https://github.com/hayleycd/wfh_status#august-update): Toggle Feature Flags with Twilio SMS
 
-#### See the [demo](https://youtu.be/J1nD3lzldnY)
+----------------
 
 ### The Problem
 Working from home has been difficult, but important during the epidemic. I have been looking for Developer Advocate/Develepor Relations jobs during quarantine. This has meant that I have taken many high stakes video calls. I also have done some video recording and editing as conferences have moved online and are more likely than ever to request a pre-recorded talk.
@@ -102,10 +102,10 @@ I can easily toggle my keys via text.
 
 ![Demonstrates how to toggle flags over text. If I text the key, the flag is turned on. If I text the key followed by an exclamation point, it turns the flag off. ](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/toggle.jpg)
 
-### Conclusion
-
-Hopefully these updates make my project more useful to myself and my family. It is easier for them to check my status, and I am able to update my status via a simple text message, without logging in to Slack or LaunchDarkly. 
-
 If I ever forget how this works, or someone needs more instructions, texting 'wfhinfo' gives you all the info you need!
 
 ![Information on how to navigate the functionality.](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/wfhinfo.jpg)
+
+### Conclusion
+
+Hopefully these updates make my project more useful to myself and my family. It is easier for them to check my status, and I am able to update my status via a simple text message, without logging in to Slack or LaunchDarkly. 
