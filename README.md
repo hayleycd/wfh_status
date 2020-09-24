@@ -5,7 +5,7 @@
 This project is no longer deployed, as my LaunchDarkly trial expired and it is pricier than I would like. _However,_
 I am leaving up the source code because I am proud of it, and it is an example project and might be interesting to those wanting to learn more about LaunchDarkly, Azure Functions, or Twilio. 
 
-#### [August 2020 Update](https://github.com/hayleycd/wfh_status#august-update): Toggle Feature Flags with Twilio SMS
+#### August 2020 Update: [Toggle Feature Flags with Twilio SMS](https://github.com/hayleycd/wfh_status#august-update)
 
 ----------------
 
