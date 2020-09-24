@@ -1,13 +1,17 @@
 ## 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
 ### 🦠 Working during the pandemic is a bit weird. 🦠
 
+#### Update Sep 2020
+This project is no longer deployed, as my LaunchDarkly trial expired and it is pricier than I would like. _However,_
+I am leaving up the source code because I am proud of it, and it is an example project and might be interesting to those wanting to learn more about LaunchDarkly, Azure Functions, or Twilio. 
+
 #### Exciting updates 8/27/20!!
 
 I took the opportunity to dig into LaunchDarkly's API and am pleased to announce the following features.
 
 1. I have set an Azure Functions timer to text me every morning to update my flags. 
-2. Anyone with my twilio phone number can check my status via text. 
-3. It is also possible to toggle flags via SMS 🤯 (in the future I may limit this functionality to texts from my cell number, but for now, I want people who have my twilio number to be able to try this feature themselves)
+2. Anyone with my Twilio phone number can check my status via text. 
+3. It is also possible to toggle flags via SMS 🤯 (in the future I may limit this functionality to texts from my cell number, but for now, I want people who have my Twilio number to be able to try this feature themselves)
 
 To accomplish this I used Azure Functions, Twilio SMS, and LaunchDarkly feature flags.
 
@@ -17,7 +21,7 @@ To create this I used a [time trigger for Azure Functions](https://docs.microsof
 ![Every weekday at 9am, I get a text reminding me to update my flags.](https://raw.githubusercontent.com/hayleycd/wfh_status/master/screenshots/reminder.jpg)
 
 ### Get Status Via Text
-To create this functionality, I used an [HTTP trigger](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook) and set up my twilio number to hit the corresponding url when it recieves an incoming text. The default text gives you the current status of my flags and instructions on how to get more information. 
+To create this functionality, I used an [HTTP trigger](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook) and set up my Twilio number to hit the corresponding url when it recieves an incoming text. The default text gives you the current status of my flags and instructions on how to get more information. 
 
 To get information about my flags, I used the [LaunchDarkly API](https://apidocs.launchdarkly.com/reference). I had to generate an [Personal Access Token](https://apidocs.launchdarkly.com/reference#authentication) (distinct from my SDK key). [Here](https://apidocs.launchdarkly.com/reference#list-feature-flags) is more information on how to make API calls to get info on your flags. 
 
