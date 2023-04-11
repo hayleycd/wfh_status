@@ -1,3 +1,5 @@
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/hayleycd/wfh_status/badge)](https://api.securityscorecards.dev/projects/github.com/hayleycd/wfh_status)
+
 ## 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
 ### 🦠 Working during the pandemic is a bit weird. 🦠
 
