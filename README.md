@@ -1,5 +1,7 @@
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/hayleycd/wfh_status/badge)](https://api.securityscorecards.dev/projects/github.com/hayleycd/wfh_status)
 
+#### This is an old project that I am using to try and evaluate security tools. 
+
 ## 🚀 Working from 127.0.0.1 🏠 with LauchDarkly Feature Flags 🚀
 ### 🦠 Working during the pandemic is a bit weird. 🦠
 
